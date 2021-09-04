@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок страницы</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link
+      href="../node_modules/@pnotify/core/dist/PNotify.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <!-- <include src="./partials/example.html"></include> -->
+    <header class="header">
+      <div class="container">
+        <h1 class="page-title">Find Your Country!</h1>
+        <form class="search-form js-search-form">
+          <label class="search-form__label" for="searchQuery"
+            >Enter the country name</label
+          >
+          <input
+            class="search-form__input js-search-form__input"
+            type="text"
+            name="query"
+            id="searchQuery"
+            placeholder="Germany"
+            required
+          />
+        </form>
+      </div>
+    </header>
+
+    <section class="search">
+      <div class="container search-result"></div>
+    </section>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--primary-bg-color);
+  padding-top: 230px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}

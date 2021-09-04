@@ -1,0 +1,30 @@
+.country__name {
+  color: var(--accent-color);
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.country__info-wrap {
+  display: flex;
+  padding: 20px;
+}
+
+.country__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 30%;
+}
+
+.country__info-list {
+  font-size: 20px;
+}
+
+.country__info-subtitle {
+  color: var(--title-text-color);
+}
+
+.country__flag {
+  flex-basis: 70%;
+}
